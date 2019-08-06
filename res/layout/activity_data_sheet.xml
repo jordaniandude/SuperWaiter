@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:background="@drawable/bgwaiter"
+    android:layout_height="match_parent">
+    
+<TableLayout
+    android:id="@+id/table_data"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+ 
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+ 
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="@string/report_header"
+            android:textSize="18sp"
+            android:textStyle="bold" >
+        </TextView>
+    </TableRow>
+ 
+    <TableRow
+        android:id="@+id/tableRowHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/tvShiftDate"
+            android:text="@string/header_shiftdate"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:typeface="serif" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/tvClockin"
+            android:gravity="center"
+            android:text="@string/header_clockin"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/tvClockout"
+            android:gravity="center"
+            android:text="@string/header_clockout"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/tvTotalHours"
+            android:gravity="center"
+            android:text="@string/header_totalhours"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/tvPayoff"
+            android:gravity="center"
+            android:text="@string/header_payoff"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+ 
+        <TextView
+            android:id="@+id/tvTipsCash"
+            android:gravity="center"
+            android:text="@string/header_tipsCash"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+        <TextView
+            android:id="@+id/tvTipsCredit"
+            android:gravity="center"
+            android:text="@string/header_tipsCredit"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+        <TextView
+            android:id="@+id/tvProfit"
+            android:gravity="center"
+            android:text="@string/header_profit"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+    </TableRow>
+    
+</TableLayout>
+</ScrollView>
